@@ -1,0 +1,15 @@
+.search {
+  background-color: rgba(55, 56, 56, 0.6);
+
+  height: 10rem;
+  border-radius: 2px;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  &__selects {
+    margin-bottom: 1rem;
+  }
+}
+.search-bar {
+  color: #383838;
+  padding: 4px;
+}

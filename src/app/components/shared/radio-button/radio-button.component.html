@@ -1,0 +1,19 @@
+<form [formGroup]="radioGroupForm">
+  <div
+    class="btn-group btn-group-toggle"
+    ngbRadioGroup
+    name="radioBasic"
+    formControlName="model"
+  >
+    <label ngbButtonLabel class="btn-primary">
+      <input ngbButton type="radio" [value]="1" /> Hotels
+    </label>
+    <label
+      ngbButtonLabel
+      class="btn btn-link"
+      style="color: white; outline: none;"
+    >
+      <input ngbButton type="radio" [value]="0" /> Flights
+    </label>
+  </div>
+</form>

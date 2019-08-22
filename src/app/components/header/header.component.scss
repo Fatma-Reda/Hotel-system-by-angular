@@ -1,0 +1,25 @@
+@import "../../../sass/main.scss";
+.header__container {
+  margin-top: 7rem;
+  max-width: 80%;
+  &__img {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+  }
+  &__sub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $color-primary;
+    &__title {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    &__subtitle {
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+  }
+}

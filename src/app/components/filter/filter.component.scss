@@ -1,0 +1,14 @@
+.search-name {
+  max-width: 21rem;
+  padding: 20px 0 40px 0;
+  margin: auto;
+  input {
+    box-shadow: 0 10px 40px 0 rgb(187, 189, 190);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  input::placeholder {
+    font-family: FontAwesome;
+    font-size: 1.5rem;
+  }
+}

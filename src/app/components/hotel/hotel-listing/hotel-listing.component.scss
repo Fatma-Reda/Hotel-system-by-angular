@@ -1,0 +1,8 @@
+@import "../../../../sass/main.scss";
+.hotel-listing {
+  margin-top: 7rem;
+  background-color: $color-gray;
+  &__hotels {
+   padding: 5px;
+  }
+}
